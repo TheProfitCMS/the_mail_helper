@@ -16,6 +16,9 @@ module MailMarkupHelper
   def text_right;  "text-align:right;";   end
   def text_just;   "text-align:justify;"; end
 
+  # nobr
+  def nobr; "white-space:nowrap"; end
+
   # font style
   def bold;   "font-weight:bold;";  end
   def italic; "font-style:italic;"; end
